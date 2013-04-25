@@ -1,0 +1,4 @@
+cd /Users/healthlab/ci_vm/ci_poll
+./vagrant_ci.sh >> /Users/healthlab/ci_vm/ci_poll/post-merge.log
+
+echo "post-merge hook ran successfully" >> /Users/healthlab/ci_vm/ci_poll/post-merge.log
