@@ -18,5 +18,7 @@ else
 
 fi
 
+rm /Users/healthlab/ci_vm/ci_poll/vagrant.ci.plist.log
+
 cd /Users/healthlab/ci_vm/test
 vagrant destroy
