@@ -21,7 +21,7 @@ end
 marker = "AUNIQUEMARKER"
 
 body =<<EOF
-Cypress Install Script CI #{status}
+Cypress Install Script CI #{status} at #{time}
 EOF
 
 # Define the main headers.
